@@ -1,0 +1,29 @@
+body{
+background-color:#90ee90;}
+#im2{
+border: 10px solid;
+width:200px;
+height:100px;
+}
+ul{
+margin-left:600px;}
+.im{
+float:left;
+}
+li{
+float:left;
+}
+li a{
+padding: 14px 16px;
+color:green;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix1 {
+  float: clear;
+}
+.h1{
+margin-left:620px;
+}
+
