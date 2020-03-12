@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>OPACITY</title>
+<style>
+img{
+opacity:0.5;
+}
+/*img:hover{
+opacity:1.0;
+}*/
+div{
+background:rgb(76,175,80);
+padding:20px;
+}
+div.first{
+background:rgba(76,175,80,0.1);
+}
+div.second{
+background:rgba(76,175,80,0.3);
+}
+div.third{
+background:rgba(76,175,0.6);
+}
+#id2{
+background:url(img.jpg);
+border:2px solid black;
+}
+.txt{
+border:1px solid red;
+height:100px;
+background:rgba(76,175,80,0.6);
+margin:30px;
+}
+.box{
+padding:5px;
+margin-left:5%;
+}
+</style>
+<body>
+<div id="id2">
+<div class="txt"><h4 class="box">This is some text that is placed in transparent box</h4>
+</div>
+</div>
+<h1>Transparent Box</h1>
+<p>With Opacity</p>
+<div style="opacity:0.1;"><p>10% opacity</p></div>
+<div style="opacity:0.3;"><p>30% opacity</p></div>
+<div style="opacity:0.6;"><p>60% opacity</p></div>
+<p>With RGBA where A defines Opacity</p>
+<div class="first"><p>10% opacity</p></div>
+<div class="second"><p>30% opacity</p></div>
+<div class="third"><p>60% opacity</p></div>
+</body>
+</head>
+</html>
